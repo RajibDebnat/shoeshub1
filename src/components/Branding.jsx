@@ -5,7 +5,7 @@ import { brand } from "../Constant";
 function Branding() {
   return (
     <div className=" p-10 max-md:p-0">
-      <ul className=" flex justify-between max-sm:flex-wrap gap-3">
+      <ul className=" max-sm:grid max-sm:grid-cols-2 flex  justify-between gap-3 flex-wrap">
         {brand.map(data=>{
 
        return <li key={data.id} className=" flex justify-center flex-col items-center ">

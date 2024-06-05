@@ -92,7 +92,7 @@ const [isId,setIsId] = useState('s1')
           ))}
         </div>
       </motion.div>
-      <div className=" relative   flex-1 flex justify-center items-center xl:min-h-screen max-md:py-0   max-xl:py-40 bg-hero  bg-cover bg-center">
+      <div className=" relative   flex-1 flex justify-center items-center xl:min-h-screen max-md:py-0   max-xl:py-40 bg-hero mb-10  bg-cover bg-center">
         <motion.div
         className=" transform "
           key={currentImg}
