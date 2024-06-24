@@ -5,6 +5,7 @@ import ViewDetailsFeatures from "./ViewDetailsFeatures";
 import { DetailsFeatures, FAQs } from "../../Constant";
 // import { useLocation } from "react-router";
 import ViewDetailsSub from "./viewDetailsSub";
+import { DetailsImg } from "../../assets/images";
 import FaqLogic from "./FaqLogic";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -25,10 +26,13 @@ function ViewDetail() {
       className="max-sm:px-3 max-md:px-8 px-14"
     >
       <section className="bg-primary max-md:p-8 max-sm:p-3 p-16 rounded-xl">
-        <ViewDetailsSub imgURL={jordan1} />
+        {/* <ViewDetailsSub imgURL={jordan1} />
         {DetailsFeatures.map((data, index) => (
           <ViewDetailsFeatures key={data.title} index={index} {...data} />
-        ))}
+        ))} */}
+        <div className=" text-center flex justify-center  ">
+          <img src= {DetailsImg} alt="shoes hub details image"  width={800} className=" object-contain rounded-lg "/>
+        </div>
       </section>
 
       <section id="FAQ" className="max-sm:px-4 mt-16 px-10 py-8">

@@ -32,10 +32,10 @@ function PopularProduct({ deviceType }) {
         className=" max-container max-sm:mt-12 relative"
       >
         <div className=" flex flex-col justify-start gap-5 max-sm:gap-2">
-          <h2 className=" text-4xl max-sm:text-[35px]    font-noto-sans font-bold text-white">
+          <h2 className=" text-4xl max-sm:text-[35px]    leading-10  font-noto-sans font-bold text-white">
             Our <span className=" text-coral-red">Popular </span>Products
           </h2>
-          <p className="   font-roboto-mono text-lg  max-sm:text-[16px] text-slate-400 leading-8 max-w-[740px] lg:max-w-lg ">
+          <p className=" font-montserrat text-lg  max-sm:text-[16px] text-slate-400 leading-8 max-w-[740px] lg:max-w-lg ">
             Explore our curated selection of must-have items in our Popular
             Products section. Discover trending styles today!
           </p>

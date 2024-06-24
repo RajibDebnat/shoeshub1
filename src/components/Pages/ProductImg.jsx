@@ -1,6 +1,6 @@
 
 
-function ProductImg({src,alt,discount}) {
+function ProductImg({src,alt,discount,price,subprice}) {
   return (
     <div className=" relative flex justify-center  flex-col">
         <img
@@ -13,7 +13,7 @@ function ProductImg({src,alt,discount}) {
           <p className="rotate-[-10deg] shadow-xl inline-block px-3 bg-primary text-tant-coral-red font-semibold rounded-xl">
             sale{" "}
             <span className="font-semibold font-montserrat text-coral-red">
-             {discount}
+             {Math.trunc(((subprice-price)/subprice)*100)}%
             </span>
           </p>
         </div>

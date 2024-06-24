@@ -10,10 +10,10 @@ function ProductPage() {
   return (
     <section className="   p-14 max-md:p-6 max-sm:p-[0px] bg-slate-900">
       <div className=" bg-slate-800  rounded-md p-10   max-md:p-4">
-        <p className="  text-dim text-[18px]  font-normal font-poetsen-one tracking-wider">
+        <p className="  text-dim text-[18px]   font-roboto-mono font-semibold tracking-wide">
           ALL PRODUCTS
         </p>
-        <h1 className=" max-md:text-[35px]   text-4xl  leading-[1.1]  font-bold text-white ">
+        <h1 className=" max-md:text-[35px]    text-4xl  leading-[1.1]  font-bold text-white ">
           Explore Our Stylish{" "}
           <span className=" text-coral-red">Shoe Collection</span>
         </h1>

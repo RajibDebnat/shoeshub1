@@ -1,7 +1,7 @@
 import HeroBackground from "./HeroBackground.webp";
 import bigShoe1 from "./big-shoe1.png";
 // import airjordanCard from './air-jordan for card.webp';
-import bigShoe2 from "./big-shoe2.webp";
+import bigShoe2 from "./big-shoe2.png";
 import bigShoe3 from "./big-shoe3.webp";
 import jordan1 from "./jordan 1.webp";
 import jordan2 from "./jordan 2.webp";
@@ -10,17 +10,17 @@ import jordan3 from "./jordan 3.webp";
 //  import jordan4 from "./jordan 4.webp"
 import customer1 from "./customer1.jpeg";
 import customer2 from "./customer2.svg";
-
+import AirForceWhite from './air force/Air Force White.webp'
 import footerLogo from "./footer-logo.svg";
 import headerLogo from "./HeaderLogo.png";
 
-import offer from "./offer.svg";
+import offer from "./offer.png";
 
 import shoe4 from "./shoe4.svg";
 import shoe5 from "./shoe5.svg";
 import shoe6 from "./shoe6.svg";
 import shoe7 from "./shoe7.svg";
-import shoe8 from "./shoe8.svg";
+import shoe8 from "./shoe8.jpg";
 import Retro4BlackCat from "./Retro/Retro 4 Black Cat.webp";
 import Retro4FearPack from "./Retro/Retro 4 Fear Pack.webp";
 import Retro4FireRedfrom from "./Retro/Retro 4 Fire Red.webp";
@@ -51,7 +51,7 @@ import suparStar from "./Adidas/SuparStar White.jpg";
 import AF1Ambush from "./air force/AF 1 Ambush.webp";
 import AF1WhiteBlackSwoosh from "./air force/AF1 White Black Swoosh.webp";
 import AF1AirForceTiffanyAmbush from "./air force/Air Force Tiffany.webp";
-import AirForceWhite from "./air force/Air Force White.webp";
+// import AirForceWhite from "./air force/Air Force White.webp";
 import TravisScottBrown from "./Travic scott/Travis Scott Brown.webp";
 import TravisScottFragmentLow from "./Travic scott/Travis Scott Fragment Low.webp";
 import TravisScottGreyWhite from "./Travic scott/Travis Scott Grey White.webp";
@@ -61,14 +61,19 @@ import DunkGreySky from "./Lowdunks/Dunk Grey Sky.webp";
 import DunkLowGrey from "./Lowdunks/Dunk Low Grey.webp";
 import DunkLowPanda from "./Lowdunks/Dunk Low Panda.webp";
 import DunkMocha from "./Lowdunks/Dunk Mocha.webp";
+import DunkRedBlackToe from './Lowdunks/Dunk Red Black Toe.webp'
 //  import  DunkRedBlackToe    from './Lowdunks/Dunk Red Black Toe.webp';
 // import AirForceWhite from './air force/Air Force White.webp,';
+import DetailsImg from './DetailsImg.webp'
 import jordanCard from './airjordancard23.jpg'
 export {
 // airjordanCard,
+DetailsImg,
 jordanCard,
+AirForceWhite,
   BlueLowDunks,
   DunkBlackTick,
+  DunkRedBlackToe,
   DunkGreySky,
   DunkLowPanda,
   DunkMocha,
@@ -79,7 +84,7 @@ jordanCard,
   AF1Ambush,
   AF1WhiteBlackSwoosh,
   AF1AirForceTiffanyAmbush,
-  AirForceWhite,
+  // AirForceWhite,
   YezzyBoost350,
   suparStar,
   adidasLogo,

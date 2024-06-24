@@ -19,14 +19,14 @@ const Nav = () => {
   const [popUp, setPopUp] = useState(false);
   console.log(popUp && "hello world");
   return (
-    <header className="  max-sm:pl-1 padding-x py-4  z-10  relative w-full  bg-gradient-to-r from-white via-slate-600  to-slate-900   ">
+    <header className="  bg-main-bg top-0  max-sm:pl-1  px-4 py-2  z-10  relative w-full ">
       <nav className=" flex justify-between  items-center  max-container">
         <a href="/" >
           <img
             src={headerLogo}
             alt="company logo"
-            width={130}
-            height={130}
+            width={110}
+            height={110}
             className="  max-lg:z-[40] max-lg:relativerounded-xl"
           />
         </a>
@@ -93,7 +93,7 @@ const Nav = () => {
             src={!isOpen ? hamburger : cross}
             height={30}
             width={30}
-            className=" object-contain   bg-mid-coral p-1 rounded-[50%]"
+            className=" object-contain     bg-white p-1 rounded-[50%]"
           />
         </div>
       </nav>

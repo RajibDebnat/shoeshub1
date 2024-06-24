@@ -13,7 +13,7 @@ const SpecialOffer = () => {
           src={offer}
           height={773}
           width={667}
-          className=" object-contain w-full"
+          className=" object-contain rounded-xl"
         />
       </div>
       <div className=" flex flex-1 flex-col max-md:items-start ">

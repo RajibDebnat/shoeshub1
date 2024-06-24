@@ -23,7 +23,7 @@ function RootLayout() {
         <Outlet />
       </main>
 
-      <footer className=" padding-x padding-t pb-8 bg-slate-300">
+      <footer className=" padding-x padding-t pb-8 bg-main-bg">
         <Footer />
       </footer>
     </>

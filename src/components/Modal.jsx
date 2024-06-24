@@ -39,14 +39,14 @@ function Modal({ open, details, onClose }) {
         <ul className=" mt-4">
           <li className="  border-l-4 border-coral-red">
             {" "}
-            <h4 className=" ml-2   text-2xl font-bold font-montserrat text-coral-red">
+            <h4 className=" ml-2   text-2xl font-bold font-montserrat ">
               {" "}
               {details.title}
             </h4>
           </li>
     
-          <li className="  mt-4 font-bold border-l-4 border-coral-red   text-xl mb-4  font-montserrat  text-coral-red">
-         <span className=" ml-2 font-bold"> &#8377; {details.price}</span>
+          <li className="  mt-4 font-bold border-l-4 border-coral-red   text-xl mb-4  font-montserrat  text-slate-900">
+         <span className=" ml-2 font-bold"> &#8377; {details.price}</span> 
           </li>
           <li>
             <div

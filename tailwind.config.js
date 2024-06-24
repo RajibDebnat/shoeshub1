@@ -16,16 +16,15 @@ export default {
     },
     extend: {
       fontFamily: {
-        palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
 
-        "noto-sans": ["Noto Sans", "sans-serif"],
-        "poetsen-one": ["Poetsen One", "sans-serif"],
-        "roboto-slab": ["Roboto Slab", "serif"],
-        "roboto-mono":["Roboto Mono", "monospace"],
-        roboto: ["Roboto", "sans-serif"],
+        poppins: ["Poppins", " sans-serif"],
+
+        "roboto-mono": ["Roboto Mono", "monospace"],
       },
       colors: {
+       "main-bg":"#0f172a",
+       "para-color":"#e7e8ea",
         primary: "#ECEEFF",
         "view-section": "#c1c4de",
         "coral-red": "#FF6452",

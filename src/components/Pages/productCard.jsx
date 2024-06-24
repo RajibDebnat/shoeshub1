@@ -13,7 +13,7 @@ function ProductCard({ src, title, price, subprice ,discount }) {
   const ref = useRef(null);
   const sliderRef = useRef(null);
   const { id, images } = src;
-
+console.log(price,subprice)
   const settings = {
     dots: false,
     infinite: true,
@@ -58,7 +58,7 @@ const prices = price.trim();
       <div className="w-full  max-sm:mb-2 overflow-hidden">
         {/* <Slider className="text-center" ref={sliderRef} {...settings}> */}
           {/* {images.map((src) => ( */}
-            <ProductImg discount={discount}  src={src} alt={title} />
+            <ProductImg  price={+price} subprice={+subprice}  src={src} alt={title} />
           {/* // ))} */}
         {/* </Slider> */}
       </div>

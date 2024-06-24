@@ -12,11 +12,13 @@ function AdidasCard({ price, src, subprice, title, discount }) {
         <motion.img
           src={src}
           alt={title}
-          className="object-cover w-full h-[200px] max-sm:h-[180px]"
+          height={200}
+          width={200}
+          className="object-cover"
           whileHover={{ scale: 1.08 }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
         />
-        <span className="bg-coral-red text-[12px] p-1 absolute top-2 right-0">
+        <span className="bg-coral-red text-[12px] p-1  rounded-2xl absolute top-2 right-0">
           {discount} off
         </span>
       </div>

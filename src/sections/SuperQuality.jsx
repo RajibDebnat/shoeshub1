@@ -14,11 +14,14 @@ const SuperQuality = () => {
     >
       
       <div className=" flex   basis-[70%] flex-col">
-        <h2 className=" text-white  max-md:leading-[1.1] max-sm:text-[35px]  leading-tight   font-noto-sans text-4xl capitalize font-bold lg:max-w-xl max-lg:max-w-lg max-sm:text-[43px]">
+        <h2 className=" text-white  max-md:leading-[1.1] max-sm:text-[35px]  leading-tight   font-noto-sans text-4xl capitalize font-bold 
+        // lg:max-w-xl
+         max-lg:max-w-lg"
+        >
           We provide you
           <span className=" text-coral-red"> Super quality</span> Shoes
         </h2>
-        <p className="mt-4 lg:max-w-lg para-text max-sm:text-[16px]  text-slate-400">
+        <p className="mt-4 para-text max-sm:text-[16px]  text-slate-400">
           Dive into our premium shoe collection, crafted with exquisite
           materials and unparalleled attention to detail. Elevate your style
           with our superior quality footwear, designed for comfort and
@@ -36,9 +39,9 @@ const SuperQuality = () => {
         <img
           src={shoe8}
           alt="supar quality shoe photo"
-          height={522}
-          width={570}
-          className=" object-contain"
+          height={700}
+          width={700}
+          className=" rounded-xl object-contain"
         />
       </div>
     </section>
