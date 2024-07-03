@@ -191,7 +191,7 @@ export const reviews = [
 ];
 
 export const footerLinks = [
-   ,, ,, ,
+
   {
     title: "Products",
     links: [
@@ -222,11 +222,11 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "shoeshubapd@gmail.com", link: "mailto:shoeshubapd@gmail.com" },
+      { name: "+919593623365", link: "tel:+919593623365" },
       {
         name: "  Boxa Feedar Road, Alipurduar-I, West Bengal-736123",
-        link: "",
+        link: "https://maps.app.goo.gl/RKtpx7yGBZUxJima6",
       },
     ],
   },
@@ -235,7 +235,7 @@ export const footerLinks = [
 export const socialMedia = [
   { src: facebook, alt: "facebook logo", href: "https://www.facebook.com/" },
   { src: twitter, alt: "twitter logo", href: "https://www.facebook.com/" },
-  { src: instagram, alt: "instagram logo", href: "https://www.facebook.com/" },
+  { src: instagram, alt: "instagram logo", href: "https://www.instagram.com/shoeshub.online?igsh=a2NjNTh6cWtoZnNu" },
 ];
 
 export const DetailsFeatures = [
