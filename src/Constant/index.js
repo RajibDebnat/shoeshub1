@@ -759,7 +759,7 @@ export const lowDunksData = [
     discount: "48%",
   },
   {
-    // src: DunkRedBlackToe,
+    src: DunkRedBlackToe,
     title: "Dunk Red Black Toe",
     price: " 1,299",
     subPrice: " 2,499",
