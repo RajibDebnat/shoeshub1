@@ -54,7 +54,7 @@ const Footer = () => {
                 {link.links.map((linkItem) => (
                   <li
                   onClick={()=>handleProductLink(linkItem)}
-                    className="mt-3 text-slate-600 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
+                    className="mt-3 text-slate-300 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
                     key={linkItem.name}
                   >
                     <Link to={linkItem.link}>{linkItem.name}</Link>
@@ -75,9 +75,9 @@ const Footer = () => {
             height={20}
             className="  rounded-full m-0 "
           />
-          <p className=" text-slate-500">Copyright . All right reserved. </p>
+          <p className=" text-slate-300">Copyright . All right reserved. </p>
         </div>
-        <p className=" text-slate-500 font-montserrat cursor-pointer"><Link to={`termsandcoditions`}>Terms & Conditions </Link></p>
+        <p className=" text-slate-300 font-montserrat cursor-pointer"><Link to={`termsandcoditions`}>Terms & Conditions </Link></p>
       </div>
     </footer>
   );
