@@ -66,6 +66,7 @@ import DunkRedBlackToe from './Lowdunks/Dunk Red Black Toe.webp'
 // import AirForceWhite from './air force/Air Force White.webp,';
 import DetailsImg from './DetailsImg.webp'
 import jordanCard from './airjordancard23.jpg'
+// import  facebook  from "../icons/facebook icon.svg";
 export {
 // airjordanCard,
 DetailsImg,

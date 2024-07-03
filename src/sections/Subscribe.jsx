@@ -35,7 +35,7 @@ const Subscribe = () => {
 
   return (
     <section className="max-container justify-between items-center flex flex-col gap-10">
-      <h3 className=" text-slate-200 text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold text-center max-sm:text-[35px] max-sm:leading-[50px]">
+      <h3 className=" text-slate-200 text-4xl leading-[68px]  font-palanquin font-bold text-center max-sm:text-[26px] max-sm:leading-[1.4] ">
         Sign Up for <span className="text-coral-red">Updates</span> &
         Newsletter!
       </h3>

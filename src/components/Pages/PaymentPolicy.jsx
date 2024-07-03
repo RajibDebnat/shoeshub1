@@ -2,9 +2,9 @@ import React from 'react';
 
 const PaymentPolicy = () => {
   return (
-    <section className="p-14 max-md:p-6 max-sm:p-3 bg-slate-900">
-      <div className="bg-slate-800 rounded-md p-10 max-md:p-4">
-        <p className="text-dim text-[18px] font-normal font-poetsen-one tracking-wider">
+    <section className="p-14  max-md:p-6 max-sm:p-3 bg-slate-900">
+      <div className="bg-slate-800 rounded-md p-10 max-md:p-4 max-w-[900px] mx-auto">
+        <p className="text-dim text-[18px] font-bold font-poetsen-one tracking-wider ">
           PAYMENT POLICY
         </p>
         <h1 className="max-md:text-[48px] text-4xl leading-[1.1] font-bold text-white">
@@ -17,7 +17,7 @@ const PaymentPolicy = () => {
             <p className="mt-2">We offer a variety of convenient and secure payment methods to suit your needs:</p>
             <ul className="mt-2 list-disc list-inside">
               <li><strong>Cash On Delivery (COD):</strong> We provide cash on delivery all over India for your convenience. (For cash on delivery orders we take shipping charges in advance)</li>
-              <li><strong>Credit and Debit Cards:</strong> We accept Visa, MasterCard, Rupay, and other major credit and debit cards.</li>
+              {/* <li><strong>Credit and Debit Cards:</strong> We accept Visa, MasterCard, Rupay, and other major credit and debit cards.</li> */}
               <li><strong>Digital Wallets:</strong> We accept a wide range of popular digital wallets, including Amazon Pay, Paytm, Bajaj Pay, Mobikwik, Freecharge, Airtel Payments Bank, Jio Money, and more.</li>
               <li><strong>UPI/QR Codes:</strong> We accept payments through Google Pay, PhonePe, and Paytm QR codes for a seamless payment experience.</li>
               <li><strong>Net Banking:</strong> We support a wide range of Indian banks for direct net banking transfers.</li>
