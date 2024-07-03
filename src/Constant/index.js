@@ -191,20 +191,21 @@ export const reviews = [
 ];
 
 export const footerLinks = [
+   ,, ,, ,
   {
     title: "Products",
     links: [
-      { name: "Air Force 1", link: "product", highPrice: "", price: "250" },
-      { name: "Air Max 1", link: "product", highPrice: "", price: "250" },
-      { name: "Air Jordan 1", link: "product", highPrice: "", price: "250" },
-      { name: "Air Force 2", link: "product", highPrice: "", price: "250" },
+      { name: "Jordan Low Grey", link: "/air-jordans",  },
+      { name: "YezzyBoost350", link: "/adidas", },
+      { name: "Retro 4 Black Cat", link: "/retro",  },
+      { name: "Jordan Low Panda", link: "/air-jordans", },
       {
-        name: "Nike Waffle Racer",
-        link: "product",
+        name: "Air Force White",
+        link: "/air-force",
         highPrice: "",
         price: "250",
       },
-      { name: "Nike Cortez", link: "product", highPrice: "", price: "250" },
+      { name: "Dunk Low Panda", link: "/low-dunks",  },
     ],
   },
   {
@@ -363,6 +364,8 @@ export const brand = [
   // air-force
   // low-dunks
 ];
+
+// 
 export const allProducts = [
   {
     src: YezzyBoost350,
