@@ -39,7 +39,7 @@ const ReturnRefundPolicy = () => {
           
           <section>
             <h2 className="text-2xl font-semibold">Return Process</h2>
-            <p className="mt-2">To initiate an exchange, please contact our customer service team via Call or WhatsApp at +91XXXXXXXXXX.</p>
+            <p className="mt-2">To initiate an exchange, please contact our customer service team via Call or WhatsApp at +919593623365.</p>
             <p className="mt-2">Upon receiving your exchange request, we will review all the details and, if everything is in order, you may securely pack your item in its original packaging along with its packaging materials. Once you inform us of the exchange and send all the details to us, then you have to get the parcel shipped within 2 days to the address given by us with the help of India Post, and you have to share your shipping details with us.</p>
             <p className="mt-2">You must share the following details with us to exchange your order:</p>
             <ul className="list-disc list-inside ml-4">
@@ -62,16 +62,16 @@ const ReturnRefundPolicy = () => {
           <section>
             <h2 className="text-2xl font-semibold">Exceptions</h2>
             <p className="mt-2">For defective or damaged products, please contact us at the contact details below to arrange an exchange.</p>
-            <p className="mt-2">WhatsApp: +91XXXXXXXXXX</p>
-            <p className="mt-2">Phone: +91XXXXXXXXXX</p>
+            <p className="mt-2">WhatsApp: +919593623365</p>
+            <p className="mt-2">Phone: +919593623365</p>
           </section>
           
           <section>
             <h2 className="text-2xl font-semibold">Questions</h2>
             <p className="mt-2">If you have any questions concerning our return policy, please contact us at:</p>
-            <p className="mt-2">Email: help.aziri@gmail.com</p>
-            <p className="mt-2">Phone: +91XXXXXXXXXX</p>
-            <p className="mt-2">WhatsApp: +91XXXXXXXXXX</p>
+            <p className="mt-2">Email: shoeshubapd@gmail.com</p>
+            <p className="mt-2">Phone: +919593623365</p>
+            <p className="mt-2">WhatsApp: +919593623365</p>
             <p className="mt-2">We are committed to providing you with an exceptional shopping experience. If you have any concerns or suggestions regarding our return policy, please do not hesitate to reach out to us.</p>
           </section>
         </div>

@@ -36,7 +36,7 @@ const PaymentPolicy = () => {
 
           <section>
             <h2 className="text-2xl font-semibold">Order Cancellation</h2>
-            <p className="mt-2">You have the option to cancel your order before the confirmation call and before shipping commences. To cancel your order, please contact our customer service team at <strong>+91XXXXXXXXXX</strong> or via WhatsApp at <strong>+91XXXXXXXXXX</strong>.</p>
+            <p className="mt-2">You have the option to cancel your order before the confirmation call and before shipping commences. To cancel your order, please contact our customer service team at <strong>+919593623365</strong> or via WhatsApp at <strong>+919593623365</strong>.</p>
           </section>
 
           <section>
@@ -46,7 +46,7 @@ const PaymentPolicy = () => {
 
           <section>
             <h2 className="text-2xl font-semibold">Contact Us</h2>
-            <p className="mt-2">If you have any questions or concerns regarding our payment policy, please feel free to contact us via email at <strong>[Your Email Address]</strong> or WhatsApp at <strong>+91XXXXXXXXXX</strong>. Our dedicated customer service team is always happy to assist you.</p>
+            <p className="mt-2">If you have any questions or concerns regarding our payment policy, please feel free to contact us via email at <strong>shoeshubapd@gmail.com</strong> or WhatsApp at <strong>+919593623365</strong>. Our dedicated customer service team is always happy to assist you.</p>
           </section>
         </div>
       </div>
