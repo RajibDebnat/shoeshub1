@@ -57,7 +57,7 @@ const Footer = () => {
                     className="mt-3 text-slate-600 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
                     key={linkItem.name}
                   >
-                    <a href={linkItem.link}>{linkItem.name}</a>
+                    <Link to={linkItem.link}>{linkItem.name}</Link>
                   </li>
                 ))}
                
