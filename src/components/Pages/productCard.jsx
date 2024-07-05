@@ -8,12 +8,13 @@ import { whatsAppLogo } from "../../assets/icons";
 import handleShopNow from "../store/handleShopNow";
 import ProductImg from "./ProductImg";
 
-function ProductCard({ src, title, price, subprice ,discount }) {
+function ProductCard({ src, title, price, subprice ,discount ,detailsFunction}) {
   const [inView, setInView] = useState(false);
+  const [isClick,setClick] = useState(false);
   const ref = useRef(null);
   const sliderRef = useRef(null);
   const { id, images } = src;
-console.log(price,subprice)
+
   const settings = {
     dots: false,
     infinite: true,
@@ -30,6 +31,14 @@ console.log(price,subprice)
   useEffect(() => {
     setInView(isInView);
   }, [isInView, setInView]);
+
+
+// const handleClick =(Details)=>{
+//   setClick(prev=>!prev);
+// console.log(Details,isClick)
+// }
+
+
 
   const parentVariants = {
     hidden: {
@@ -51,6 +60,7 @@ const prices = price.trim();
     <motion.div
       ref={ref}
       variants={parentVariants}
+      onClick={()=>detailsFunction(title)}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       className="relative overflow-hidden hover:skew-x-1 origin-top-right hover:shadow-lg transition-all duration-[0.5s] flex flex-col  justify-evenly  max-xl:p-4 pt-4 p-6 pb-4 max-sm:p-1 rounded-md bg-white "

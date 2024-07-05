@@ -3,12 +3,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { allProducts } from "../../Constant";
 import ProductCard from "./productCard";
-
+import ProductModal from "../ProductModal";
+import { useState } from "react";
 function ProductPage() {
-  console.log(allProducts);
-
+  const [productDetails, setProductDetails] = useState(null);
+  const getClickedProductDetails = (details) => {
+    console.log(details);
+    setProductDetails(details);
+  };
   return (
-    <section className="   p-14 max-md:p-6 max-sm:p-[0px] bg-slate-900">
+    <>
+    <section className=" relative   p-14 max-md:p-6 max-sm:p-[0px] bg-slate-900">
       <div className=" bg-slate-800  rounded-md p-10   max-md:p-4">
         <p className="  text-dim text-[18px]   font-roboto-mono font-semibold tracking-wide">
           ALL PRODUCTS
@@ -23,11 +28,13 @@ function ProductPage() {
               <ProductCard
                 key={product.title}
                 src={product.src}
-                alt={product.title}z
+                alt={product.title}
+                z
                 title={product.title}
                 price={product.price}
                 discount={product.discount}
                 // size={product.size}
+                detailsFunction={getClickedProductDetails}
                 subprice={product.subPrice}
               />
             );
@@ -45,7 +52,13 @@ function ProductPage() {
           })} */}
         </div>
       </div>
+    
     </section>
+    {/* <div className="  w-full z-40  fixed top-[20%] bg-black bg-opacity-60 h-svh  px-10">
+
+<ProductModal name={productDetails} />
+</div> */}
+    </>
   );
 }
 
