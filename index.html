@@ -1,28 +1,51 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C66015R6MH"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-C66015R6MH');
-    </script> 
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C66015R6MH');
+  </script> 
+
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./assets/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta property="og:title" content="SHOES HUB">
-  <meta property="og:description" content="BEST OF THE BEST SNEAKERS , TRENDY COLLECTION OF SHOES">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.ico" />
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Shoes Hub: Discover the best trendy sneakers, stylish collections of shoes, and exclusive offers.">
+  <meta name="keywords" content="Shoes, Sneakers, Trendy Shoes, Fashion, Sneakers Hub, Best Shoes">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph Meta Tags (for social sharing) -->
+  <meta property="og:title" content="Shoes Hub - Trendy Sneakers Collection">
+  <meta property="og:description" content="Explore the best collection of trendy sneakers at Shoes Hub. Discover stylish, comfortable, and high-quality shoes for all occasions.">
   <meta property="og:image" content="./src/assets/images/big-shoe1.png">
-  <meta property="og:url" content="https://newshoes-hub.netlify.app/">
-
-
-  <title>Shoes Hub</title>
+  <meta property="og:url" content="https://myshoeshub.netlify.app">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Shoes Hub">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shoes Hub - Trendy Sneakers Collection">
+  <meta name="twitter:description" content="Discover the best collection of trendy shoes at Shoes Hub. Shop stylish, high-quality sneakers today!">
+  <meta name="twitter:image" content="./src/assets/images/big-shoe1.png">
+  <meta name="twitter:url" content="https://myshoeshub.netlify.app">
+  
+  <!-- Title -->
+  <title>Shoes Hub - Trendy Sneakers Collection</title>
 </head>
 <body>
+  <!-- Root Divs for React App -->
   <div id="modal-root"></div>
   <div id="modal"></div>
   <div id="root"></div>
+  
+  <!-- React App Script -->
   <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
