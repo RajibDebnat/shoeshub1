@@ -8,7 +8,7 @@ import { whatsAppLogo } from "../../assets/icons";
 import handleShopNow from "../store/handleShopNow";
 import ProductImg from "./ProductImg";
 
-function ProductCard({ src, title, price, subprice ,discount ,detailsFunction}) {
+function ProductCard({  src, title, price, subprice ,discount ,detailsFunction}) {
   const [inView, setInView] = useState(false);
   const [isClick,setClick] = useState(false);
   const ref = useRef(null);

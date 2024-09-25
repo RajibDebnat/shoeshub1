@@ -7,9 +7,16 @@ import ProductModal from "../ProductModal";
 import { useState } from "react";
 function ProductPage() {
   const [productDetails, setProductDetails] = useState(null);
+  const [isCliked,setIsCliked]= useState(false)
+
+const closeModal =()=>{
+  setIsCliked(false)
+}
+
   const getClickedProductDetails = (details) => {
-    console.log(details);
+    
     setProductDetails(details);
+    setIsCliked(true)
   };
   return (
     <>
@@ -36,6 +43,7 @@ function ProductPage() {
                 // size={product.size}
                 detailsFunction={getClickedProductDetails}
                 subprice={product.subPrice}
+              
               />
             );
           })}
@@ -54,10 +62,7 @@ function ProductPage() {
       </div>
     
     </section>
-    {/* <div className="  w-full z-40  fixed top-[20%] bg-black bg-opacity-60 h-svh  px-10">
-
-<ProductModal name={productDetails} />
-</div> */}
+   {/* {isCliked&&<ProductModal closeModal ={closeModal}/>}  */}
     </>
   );
 }

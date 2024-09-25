@@ -13,8 +13,10 @@ import twitter from "./twitter.svg";
 import shopping from './shopping-bag-add-icon.svg';
 import cross from './cross.svg';
 import whatsAppLogo from './whatsapplogo.webp';
-import downIcon from './arrow-down-sign-to-navigate.svg'
+import downIcon from './arrow-down-sign-to-navigate.svg';
+import close from './close.png'
 export {
+  close,
   arrowRight,
   cheveronRight,
   chevronLeft,

@@ -98,7 +98,7 @@ export const products = [
     // rating: "(4.1)",
     src: YezzyBoost350,
     title: "Yeezy Boost 350 Grey White",
-    price: "1,299",
+    price: "3,299",
     subPrice: "2,499",
     discount: "48%",
     rating: "4.6",
@@ -107,7 +107,7 @@ export const products = [
   {
     src: suparStar,
     title: "Superstar White",
-    price: "1,299",
+    price: "3,299",
     subPrice: "2,499",
     discount: "48%",
     rating: "4.1",
@@ -115,7 +115,7 @@ export const products = [
   {
     src: RetroMilitaryBlack,
     title: "Retro 4 Military Black",
-    price: " 1,699",
+    price: "3,299",
     subPrice: "3,499",
     discount: "51%",
     rating: "4.2",
@@ -123,7 +123,7 @@ export const products = [
   {
     src: Retro4FearPack,
     title: "Retro 4 Fear Pack",
-    price: " 1,599",
+    price: "3,299",
     subPrice: " 3,399",
     discount: "53%",
     rating: "4.8",
@@ -131,7 +131,7 @@ export const products = [
   {
     src: Retro4FireRedfrom,
     title: "Retro 4 Fire Red",
-    price: " 1,699",
+    price: " 3,299",
     subPrice: " 3,499",
     discount: "51%",
     rating: "4.4",
@@ -139,7 +139,7 @@ export const products = [
   {
     src: JordanLowPanda,
     title: "Jordan Low Panda",
-    price: " 1,299",
+    price: " 3,299",
     subPrice: " 2,499",
     discount: "48%",
     rating: "4.4",
@@ -147,7 +147,7 @@ export const products = [
   {
     src: JordanLowGrey,
     title: "Jordan Low Grey",
-    price: " 1,299",
+    price: "3,299",
     subPrice: " 2,499",
     discount: "48%",
     rating: "4.8",
