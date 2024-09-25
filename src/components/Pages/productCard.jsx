@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { motion, useInView } from "framer-motion";
 import Button from "../Button";
 import { whatsAppLogo } from "../../assets/icons";
+import priceManupulate from "../../sections";
 import handleShopNow from "../store/handleShopNow";
 import ProductImg from "./ProductImg";
 
@@ -38,6 +39,8 @@ function ProductCard({  src, title, price, subprice ,discount ,detailsFunction})
 // console.log(Details,isClick)
 // }
 
+const mainPrice = priceManupulate(price)
+const prevPrice = priceManupulate(subprice);
 
 
   const parentVariants = {
@@ -55,7 +58,8 @@ function ProductCard({  src, title, price, subprice ,discount ,detailsFunction})
       },
     },
   };
-const prices = price.trim();
+
+
   return (
     <motion.div
       ref={ref}
@@ -79,10 +83,10 @@ const prices = price.trim();
         </h4>
         <p className="mt-2 max-md:mt-2 max-md:mb-1 mb-3 font-roboto-mono text-md font-semibold text-slate-900 ">
           <span className="">
-            <span className="text-xl mr-1">&#8377;</span>{prices}
+            <span className="text-xl mr-1">&#8377;</span>{mainPrice}
           </span>{" "}
           <span className="text-slate-500 line-through font-roboto-mono">
-            {subprice}
+            {prevPrice}
           </span>
         </p>
       </div>

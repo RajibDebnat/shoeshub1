@@ -399,7 +399,7 @@ export const allProducts = [
     src: Retro4FearPack,
     title: "Retro 4 Fear Pack",
     price: " 3299",
-    subPrice: " 3399",
+    subPrice: " 6499",
     discount: "53",
   },
   {

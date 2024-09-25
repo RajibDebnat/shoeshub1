@@ -8,6 +8,7 @@ import SuperQuality from "./SuperQuality";
 import PopularProduct from "./PopularProduct";
 import HowToOrder from "./HowToOrder"
 import Branding from "../components/Branding";
+import { func } from "prop-types";
 export {
   Home,
   CustomerReviews,
@@ -20,3 +21,12 @@ export {
   HowToOrder,
   Branding
 };
+
+ export default function priceManupulate(price){
+  const prices = price.trim();
+const mainPrice = prices.slice(0,1);
+const mainprice2 = prices.slice(1,prices.length);
+ const manupulatedPrice = `${mainPrice},${mainprice2}`;
+ return manupulatedPrice;
+
+}
